@@ -1,4 +1,4 @@
-# transformer_rl-mujoco-half-cheetah-experiment-reward change(in progress)
+# online learning transformer_rl-mujoco-half-cheetah-experiment-reward change(in progress)
 This experiment follows three steps. collecting data from normal rl env. training custome transformer model with collected data trajectory. training new rl agent with trained transformer model in normal rl env
 
 ## 1) normal rl trained agent ##
@@ -29,6 +29,8 @@ epi_reward_sum is cumulative reward for each n_epi
 from the first stage, trajectory is full of bad [state,action,reward] sequence. Because agent dose not gain good reward and show good performance.
 Transformer trains with these failed dataset and gets knowledge. Then, for some trajectory that value too much on bad action sequence, transformer will signal that
 these action combinations are bad. Then overestimation for q_val will be decreased. point in this project is that using failed dataset.
+
+## online learning for transformer ##
 
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
