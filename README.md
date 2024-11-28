@@ -29,6 +29,8 @@ from the first stage, trajectory is full of bad [state,action,reward] sequence. 
 Transformer train with these failed dataset and get knowledge. Then, for some trajectory that value too much on bad action sequence, transformer will signal that
 these action combinations are bad. Then overestimation for q_val will be decreased.
 
+## about files ##
+first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
 
 
 
