@@ -40,6 +40,8 @@ I hope this will prevent actor network from optimistic expectation
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
 
+## future ##
+I will do experiment more for epoch 100 , 1000, ... And also try for other new structures.
 
 
 
