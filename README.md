@@ -8,14 +8,13 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ![transofrmer+rl+trained+half+cheetah+agent](https://github.com/user-attachments/assets/9e6832ea-58c6-407e-862e-1553d2cdbedb)
 
 ## Train loss for normal rl ##
-![normal rl train result](https://github.com/user-attachments/assets/b5db2b49-9bb2-49ba-9c02-46ab311c3475)
+![1](https://github.com/user-attachments/assets/6b3e29f0-c8f8-435d-b80f-76a694af885b)
 
 ## Train loss for transformer model ##
-![transformer training result](https://github.com/user-attachments/assets/80603326-7371-4103-b01f-f7fd6ae6985d)
-
+![2](https://github.com/user-attachments/assets/822b1901-2048-4745-998d-fef3138ecbbc)
 
 ## Train loss for transformer + rl ##
-![transformer rl](https://github.com/user-attachments/assets/b3d4777c-783c-4d93-a9fc-054f5a461843)
+![3](https://github.com/user-attachments/assets/e1753690-c8a8-4ce2-9542-76717a7b386c)
 
 
 ## difference description ##
