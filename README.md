@@ -1,4 +1,4 @@
-# transformer_rl-mujoco-half-cheetah-experiment
+# transformer_rl-mujoco-half-cheetah-experiment-reward change
 This experiment follows three steps. collecting data from normal rl env. training custome transformer model with collected data trajectory. training new rl agent with trained transformer model in normal rl env
 
 ## 1) normal rl trained agent ##
@@ -18,7 +18,7 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ![transformer rl](https://github.com/user-attachments/assets/b3d4777c-783c-4d93-a9fc-054f5a461843)
 
 
-## description ##
+## difference description ##
 
 normal rl experiment and transformer + rl experiment both uses simple actor critic method with 3 layers.
 Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward is changed by adding transformer model's output(=reward).  
@@ -28,6 +28,8 @@ Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward i
 from the first stage, trajectory is full of bad [state,action,reward] sequence. Because agent dose not gain good reward and show good performance.
 Transformer train with these failed dataset and get knowledge. Then, for some trajectory that value too much on bad action sequence, transformer will signal that
 these action combinations are bad. Then overestimation for q_val will be decreased.
+
+
 
 
 
