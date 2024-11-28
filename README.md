@@ -1,4 +1,4 @@
-# transformer_rl-mujoco-half-cheetah-experiment-reward change
+# transformer_rl-mujoco-half-cheetah-experiment-reward change(in progress)
 This experiment follows three steps. collecting data from normal rl env. training custome transformer model with collected data trajectory. training new rl agent with trained transformer model in normal rl env
 
 ## 1) normal rl trained agent ##
