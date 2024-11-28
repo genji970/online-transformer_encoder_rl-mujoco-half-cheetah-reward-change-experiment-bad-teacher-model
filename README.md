@@ -24,6 +24,9 @@ normal rl experiment and transformer + rl experiment both uses simple actor crit
 Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward is changed by adding transformer model's output(=reward).  
 ![1](https://github.com/user-attachments/assets/b09a4f38-a650-4b99-895d-ec5e21e00dda)
 
+## meaning of transformer model ##
+from the first stage, trajectory is full of bad [state,action,reward] sequence. Because agent dose not gain good reward and show good performance.
+Transformer train with these failed dataset and get knowledge. 
 
 
 
