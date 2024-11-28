@@ -1,6 +1,9 @@
 # online learning transformer_rl-mujoco-half-cheetah-experiment-reward change(in progress)
 This experiment follows three steps. collecting data from normal rl env. training custome transformer model with collected data trajectory. training new rl agent with trained transformer model in normal rl env
 
+## point ##
+data agent trains and data transformer model do online learning are the same. Online learning here is not for gain new good data but to make reward distribution as flat as possible.
+
 ## 1) normal rl trained agent ##
 ![다운로드 (2)](https://github.com/user-attachments/assets/6383787a-06f0-4bf6-9d9b-6324c7b81b18)
 
