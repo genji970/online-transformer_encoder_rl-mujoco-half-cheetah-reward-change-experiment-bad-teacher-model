@@ -5,7 +5,8 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ![다운로드 (2)](https://github.com/user-attachments/assets/6383787a-06f0-4bf6-9d9b-6324c7b81b18)
 
 ## 2) transformer rl trained agent ##
-![transofrmer+rl+trained+half+cheetah+agent](https://github.com/user-attachments/assets/9e6832ea-58c6-407e-862e-1553d2cdbedb)
+![다운로드+(1) (1)](https://github.com/user-attachments/assets/a43c7212-a264-4c9f-a064-86606773bf5e)
+
 
 ## Train loss for normal rl ##
 ![1](https://github.com/user-attachments/assets/6b3e29f0-c8f8-435d-b80f-76a694af885b)
