@@ -21,9 +21,8 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ## difference description ##
 
 normal rl experiment and transformer + rl experiment both uses simple actor critic method with 3 layers.
-Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward is changed by adding transformer model's output(=custome reward).  
-![1](https://github.com/user-attachments/assets/b09a4f38-a650-4b99-895d-ec5e21e00dda)
-epi_reward_sum is cumulative reward for each n_epi
+Difference is this part. reward gained from env.step(action) and custome reward from transformer model.
+![스크린샷 2024-11-29 004204](https://github.com/user-attachments/assets/29359311-49be-4187-9567-a351200b5d2c)
 
 ## meaning of transformer model ##
 from the first stage, trajectory is full of bad [state,action,reward] sequence. Because agent dose not gain good reward and show good performance.
