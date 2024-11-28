@@ -21,7 +21,7 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ## difference description ##
 
 normal rl experiment and transformer + rl experiment both uses simple actor critic method with 3 layers.
-Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward is changed by adding transformer model's output(=reward).  
+Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward is changed by adding transformer model's output(=custome reward).  
 ![1](https://github.com/user-attachments/assets/b09a4f38-a650-4b99-895d-ec5e21e00dda)
 
 ## meaning of transformer model ##
