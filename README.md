@@ -30,11 +30,11 @@ from the first stage, trajectory is full of bad [state,action,reward] sequence. 
 Transformer trains with these failed dataset and gets knowledge. Then, for some trajectory that value too much on bad action sequence, transformer will signal that
 these action combinations are bad. Then overestimation for q_val will be decreased. point in this project is that using failed dataset.
 
-## online learning transformer ##
+## online learning transformer + rl ##
 idea : for certain steps, transformer model learns from new trajectorctory.
 I hope this will prevent actor network from optimistic expectation
 
-## result of online transformer3
+## result of online transformer + rl
 
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
