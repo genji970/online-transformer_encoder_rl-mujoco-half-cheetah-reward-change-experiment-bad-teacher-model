@@ -31,6 +31,8 @@ Transformer trains with these failed dataset and gets knowledge. Then, for some 
 these action combinations are bad. Then overestimation for q_val will be decreased. point in this project is that using failed dataset.
 
 ## online learning transformer ##
+idea : for certain steps, transformer model learns from new trajectorctory.
+I hope this will prevent actor network from optimistic expectation
 
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
