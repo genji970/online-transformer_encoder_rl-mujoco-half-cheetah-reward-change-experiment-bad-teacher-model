@@ -34,6 +34,8 @@ these action combinations are bad. Then overestimation for q_val will be decreas
 idea : for certain steps, transformer model learns from new trajectorctory.
 I hope this will prevent actor network from optimistic expectation
 
+## result of online transformer3
+
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
 
