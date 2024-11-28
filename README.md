@@ -27,7 +27,7 @@ Difference is this part. if n_epi ' reward > (n_epi + 1) ' reward, then reward i
 ## meaning of transformer model ##
 from the first stage, trajectory is full of bad [state,action,reward] sequence. Because agent dose not gain good reward and show good performance.
 Transformer trains with these failed dataset and gets knowledge. Then, for some trajectory that value too much on bad action sequence, transformer will signal that
-these action combinations are bad. Then overestimation for q_val will be decreased.
+these action combinations are bad. Then overestimation for q_val will be decreased. point in this project is that using failed dataset.
 
 ## about files ##
 first_stage , second_stage, third_stage, visualization.py files are divided version of ipynb
