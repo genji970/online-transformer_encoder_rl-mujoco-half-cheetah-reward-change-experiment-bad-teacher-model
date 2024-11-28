@@ -30,7 +30,7 @@ Transformer trains with these failed dataset and gets knowledge. Then, for some 
 these action combinations are bad. Then overestimation for q_val will be decreased. point in this project is that using failed dataset.
 
 ## online learning transformer + rl ##
-idea : for certain steps, transformer model learns from new trajectorctory.
+idea : for every steps, transformer model learns from new trajectorctory.
 I hope this will prevent actor network from optimistic expectation
 
 ## result of online transformer + rl
