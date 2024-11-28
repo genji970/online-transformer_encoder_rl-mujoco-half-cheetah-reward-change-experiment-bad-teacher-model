@@ -17,3 +17,11 @@ This experiment follows three steps. collecting data from normal rl env. trainin
 ## Train loss for transformer + rl ##
 ![transformer rl](https://github.com/user-attachments/assets/b3d4777c-783c-4d93-a9fc-054f5a461843)
 
+
+## description ##
+
+normal rl experiment and transformer + rl experiment both uses simple actor critic method with 3 layers.
+
+
+
+
