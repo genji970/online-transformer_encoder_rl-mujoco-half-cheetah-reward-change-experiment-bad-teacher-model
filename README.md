@@ -1,8 +1,18 @@
 # transformer_rl-mujoco-half-cheetah-experiment
 This experiment follows three steps. collecting data from normal rl env. training custome transformer model with collected data trajectory. training new rl agent with trained transformer model in normal rl env
 
-1) normal rl trained agent
+## 1) normal rl trained agent ##
 ![normal+rl+trained+half+cheetah+agent (1)](https://github.com/user-attachments/assets/ae9b8d88-bc68-4b8d-bd18-e18d51aca74d)
 
-2) transformer rl trained agent
+## 2) transformer rl trained agent ##
 ![transofrmer+rl+trained+half+cheetah+agent](https://github.com/user-attachments/assets/9e6832ea-58c6-407e-862e-1553d2cdbedb)
+
+Train loss for normal rl
+![normal rl train result](https://github.com/user-attachments/assets/b5db2b49-9bb2-49ba-9c02-46ab311c3475)
+
+Train loss for transformer model
+![transformer training result](https://github.com/user-attachments/assets/80603326-7371-4103-b01f-f7fd6ae6985d)
+
+
+Train loss for transformer + rl
+![transformer rl](https://github.com/user-attachments/assets/b3d4777c-783c-4d93-a9fc-054f5a461843)
